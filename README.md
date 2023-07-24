@@ -156,7 +156,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <p>
   <img src="https://i.imgur.com/mUngpN4.png" height="80%" width="80%" alt="xx"/>
   <br/>
-  <img src="https://i.imgur.com/ZWHsu7R.png" height="80%" width="80%" alt="xx"/>
+  <img src="https://i.imgur.com/SomtH3J.png" height="80%" width="80%" alt="xx"/>
    <br/>
   <img src=https://i.imgur.com/xzXrrmB.png" height="80%" width="80%" alt="xx"/>
 </p>
