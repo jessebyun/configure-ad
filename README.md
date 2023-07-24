@@ -117,7 +117,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-  Next, we are going to start installation for Active Directory on DC-1 and promote it into a Domain Controller. Then we are going to add a new forest and name our domain. Once AD installation is complete, it will log off and we need to log back in. 
+  Next, we are going to start installation for Active Directory on DC-1 and promote it into a Domain Controller. Then we are going to add a new forest and name our domain. Once AD installation is complete, the VM will log off and we need to reconnect to it. 
 </p>
 <p>
   <img src="https://i.imgur.com/Pc4o6es.png" height="80%" width="80%" alt="xx"/>
