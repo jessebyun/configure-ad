@@ -42,7 +42,6 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br />
 <br />
 <br />
-<br />
 
 <p>
   First we are going to create two Virtual Machines, 1st VM with Windows Server as our Domain Controller (DC-1) and 2nd VM with Windows 10 which will be our Client computer (Client-1). 
