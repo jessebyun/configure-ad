@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Ensure connectivity between the Client and Domain Controller
 - Install Active Directory
 - Create an Admin and Normal User Account in AD
-- Join Client-1 to your Domain (jessedomain.com)
+- Join Client-1 computer to your Domain (jessedomain.com)
 - Setup Remote Desktop for non-administrative users on Client-1
 - Create additional users and log into Client-1 with one of the users
 
