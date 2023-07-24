@@ -107,7 +107,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-  Now we can see ping is successful; ensuring connectivity between Client-1 and DC-1.
+  Now we can see ping is successful; ensuring there is connectivity between Client-1 and DC-1.
 </p>
 <p>
   <img src="https://i.imgur.com/b55ZhVz.png" height="80%" width="80%" alt="xx"/>
