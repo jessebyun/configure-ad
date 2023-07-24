@@ -146,3 +146,14 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <p>
   <img src="https://i.imgur.com/Mh5Pnn9.png" height="80%" width="80%" alt="xx"/>
 </p>
+
+<br/>
+<br/>
+<br/>
+
+<p>
+  When we go into Active Directory Users and Computers window, we can see it create a bunch of default items. If we click on user on subpane, we can see our user "labuser" is here. We can also see some default random Security Groups. If we go to Computers, we see that we don't have any computers yet. Under Domain Controllers, we can see 1 Domain Controller which is DC-1. This Domain Controller is a computer that has Active Directory running on it. 
+</p>
+<p>
+  <img src="
+</p>
