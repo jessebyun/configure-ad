@@ -139,3 +139,10 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 <br/>
 <br/>
+
+<p>
+  Once the Domain Controller is online, we are going to create couple Organizational Units inside AD. Which are just folders to organize stuff. Then we are going to create an administrative user and a normal user. 
+</p>
+<p>
+  <img src="https://i.imgur.com/Mh5Pnn9.png" height="80%" width="80%" alt="xx"/>
+</p>
