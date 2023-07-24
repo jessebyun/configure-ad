@@ -171,10 +171,12 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-  We can see we created an user John Doe in a folder called Admins, but this name is ambiguous and is just for the human eye. To make this an actual Domain Admin, we have to assign it to the Domain Admins Group. 
+  We can see we created an user John Doe in a folder called Admins, but this name is ambiguous and is just for the human eye. To make this an actual Domain Admin, we have to assign it to the Domain Admins Group. To do this, right-slick the user, properties, click tab member of. We can see that its member of Domain Users which is a group by default all Domain members are a part of. So we are going to add another group for Domain Admins. 
 </p>
 <p>
   <img src="https://i.imgur.com/HtUbuzc.png" height="80%" width="80%" alt="xx"/>
   <br/>
   <img src="https://i.imgur.com/rOkLRRs.png" height="80%" width="80%" alt="xx"/>
+  <br/>
+  <img src="https://i.imgur.com/rbcE6wn.png" height="80%" width="80%" alt="xx"/>
 </p>
