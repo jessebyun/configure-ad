@@ -120,5 +120,5 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
   Next, we are going to install Active Directory on DC-1 and promote it into a Domain Controller, then restart and log back into the Domain Controller. 
 </p>
 <p>
-  <img src="
+  <img src="https://i.imgur.com/Pc4o6es.png" height="80%" width="80%" alt="xx"/>
 </p>
