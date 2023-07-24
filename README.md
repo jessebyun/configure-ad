@@ -105,3 +105,13 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 <br/>
 <br/>
+
+<p>
+  Now we can see Client-1 can ping DC-1 successfully.
+</p>
+<p>
+  <img src="https://i.imgur.com/b55ZhVz.png" height="80%" width="80%" alt="xx"/>
+</p>
+<br/>
+<br/>
+<br/>
