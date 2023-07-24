@@ -155,3 +155,26 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 <br/>
 <br/>
+
+<p>
+  Then we are going to create couple Organizational Units (_ADMINS and _EMPLOYEES) inside AD. Which are just folders to organize stuff. Then we are going to create an administrative user. 
+</p>
+<p>
+  <img src="https://i.imgur.com/Pq9ijlE.png" height="80%" width="80%" alt="xx"/>
+  <br/>
+  <img src="https://i.imgur.com/b8VhnO4.png" height="80%" width="80%" alt="xx"/>
+  <br/>
+  <img src="https://i.imgur.com/9hYhhnb.png" height="80%" width="80%" alt="xx"/>
+  </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  We can see we created an user John Doe in a folder called Admins, but this name is ambiguous and is just for the human eye. To make this an actual Domain Admin, we have to assign it to the Domain Admins Group. 
+</p>
+<p>
+  <img src="https://i.imgur.com/HtUbuzc.png" height="80%" width="80%" alt="xx"/>
+  <br/>
+  <img src="https://i.imgur.com/6AGQWq2.png" height="80%" width="80%" alt="xx"/>
+</p>
