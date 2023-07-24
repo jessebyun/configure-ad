@@ -141,19 +141,11 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-  Once the Domain Controller is online, we are going to create couple Organizational Units inside AD. Which are just folders to organize stuff. Then we are going to create an administrative user and a normal user. 
+  Once the Domain Controller is online, we are going into Active Directory Users and Computers window. Here we can see it created a bunch of default items. If we click on user on subpane, we can see our user "labuser" is here. We can also see some default random Security Groups. If we go to Computers, we see that we don't have any computers yet. Under Domain Controllers, we can see 1 Domain Controller which is DC-1. This Domain Controller is a computer that has Active Directory running on it. 
 </p>
 <p>
   <img src="https://i.imgur.com/Mh5Pnn9.png" height="80%" width="80%" alt="xx"/>
-</p>
-<br/>
-<br/>
-<br/>
-
-<p>
-  When we go into Active Directory Users and Computers window, we can see it created a bunch of default items. If we click on user on subpane, we can see our user "labuser" is here. We can also see some default random Security Groups. If we go to Computers, we see that we don't have any computers yet. Under Domain Controllers, we can see 1 Domain Controller which is DC-1. This Domain Controller is a computer that has Active Directory running on it. 
-</p>
-<p>
+  <br/)
   <img src="https://i.imgur.com/mUngpN4.png" height="80%" width="80%" alt="xx"/>
   <br/>
   <img src="https://imgur.com/mEeUwli.png" height="80%" width="80%" alt="xx"/>
