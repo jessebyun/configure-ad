@@ -176,5 +176,5 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <p>
   <img src="https://i.imgur.com/HtUbuzc.png" height="80%" width="80%" alt="xx"/>
   <br/>
-  <img src="https://i.imgur.com/6AGQWq2.png" height="80%" width="80%" alt="xx"/>
+  <img src="https://i.imgur.com/rOkLRRs.png" height="80%" width="80%" alt="xx"/>
 </p>
