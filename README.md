@@ -122,6 +122,5 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <p>
   <img src="https://i.imgur.com/Pc4o6es.png" height="80%" width="80%" alt="xx"/>
   <br/>
-  <br/>
   <img src="https://i.imgur.com/4f8SgXr.png" height="80%" width="80%" alt="xx"/>
 </p>
