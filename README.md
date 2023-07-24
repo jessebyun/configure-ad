@@ -126,3 +126,16 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
   <br/>
   <img src="https://i.imgur.com/ox9rHPW.png" height="80%" width="80%" alt="xx"/>
 </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  When we remote desktop back into DC-1 it now became a Domain Controller; therefore, we have to login with the context of the domain. So we have to change the user name using Fully Qualifiied Domain Name (FQDN). 
+</p>
+<p>
+  <img src="https://i.imgur.com/cmKPMaT.png" height="80%" width="80%" alt="xx"/>
+</p>
+<br/>
+<br/>
+<br/>
