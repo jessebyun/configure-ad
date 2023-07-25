@@ -265,8 +265,8 @@ Before we change the DNS settings, we are going to try to join our Domain to see
 <br/>
 
 <p>
-  Now we are going to go back to DC-1 remote desktop and go to Active Directory Users and Computers. Here if we go into Users and open Domain Users, we can see all the users that are members of the Domain Users Security Group which is the group we added to allow remote desktop into Client-1. 
+  Now we are going to go back to DC-1 remote desktop and go to Active Directory Users and Computers. Here if we go into Users then open Domain Users, we can see all the users that are members of the Security Group Domain Users. This is the group we added to Client-1 so that we can also include all non-administrative users to be able to login to Client-1
 </p>
 <p>
-  <img src="
+  <img src="https://i.imgur.com/2fSynzC.png" height="80%" width="80%" alt="xxx"/>
 </p>
