@@ -180,3 +180,12 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
   <br/>
   <img src="https://i.imgur.com/rbcE6wn.png" height="80%" width="80%" alt="xx"/>
 </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  <img src="https://i.imgur.com/XdZvY0B.png" height="80%" width="80%" alt="xx"/>
+  <br/>
+  <img src="https://i.imgur.com/r6eZQnY.png" height="80%" width="80%" alt="xx"/>
+</p>
