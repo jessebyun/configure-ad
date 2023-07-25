@@ -207,5 +207,10 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-   First, we need to set Client-1’s DNS settings to the Domain Controller’s private IP address. At the current state, the DNS settings for Client-1 is pointing to the DNS server in the VNET. To join the Domain, we have to use the Domain Controller as the DNS Server because the Domain Controller knows what jessedomain.com is. If we use the DNS Server in the VNET, it will search the internet for a random jessedomain.com for a Domain Controller and its going to fail. Once DC-1 becomes the DNS server, it will tell Client-1 which IP address to use to join it.  
+   First, we need to set Client-1’s DNS settings to the Domain Controller’s private IP address. At the current state, the DNS settings for Client-1 is pointing to the DNS server in the VNET. To join the Domain, we have to use the Domain Controller as the DNS Server because the Domain Controller knows what jessedomain.com is. If we use the hidden DNS Server in the VNET, it will search the internet for a random jessedomain.com for a Domain Controller and its going to fail. Once DC-1 becomes the DNS server for Client, DC-1 can tell Client-1 which IP address to use to join it. Before we change the DNS settings, we are going to try to join our Domain to see what happens.
+<br/>
+  If we go to CMD and type ipconfig /all we can see that the DNS server is using a public IP address. So we are going to go to SETTINGS, ABOUT, RENAME THIS PC (ADVANCED), CHANGE domain, and type in our Domain. We can see it says: Active Directory Domain Controller for domain "jessedomain" could not be contacted. Because it reached out to the public DNS server to find jessedomain but there is none. 
+</p>
+<p>
+  <img src="https://i.imgur.com/An2k3pe.png" height="80%" width="80%" alt="xxx"/>
 </p>
