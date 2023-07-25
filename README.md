@@ -197,7 +197,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
- Now we are going to join Client-1 computer to the Domain. After we do that, even though our accounts have not existed on Client-1 computer before, we’re going to be able to log into Client-1 with a-john.doe or any other account. 
+ Now we are going to join Client-1 computer to the Domain. After we do that, even though our accounts have not existed on Client-1 computer before, we’re going to be able to log into Client-1 with a-john.doe or technically any other account. 
 </p>
 <p>
 <img src="https://i.imgur.com/jL8Uv6k.png" height="80%" width="80%" alt="xxx"/>
