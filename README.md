@@ -205,3 +205,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 <br/>
 <br/>
+
+<p>
+   First, we need to set Client-1’s DNS settings to the Domain Controller’s private IP address. At the current state, the DNS settings for Client-1 is pointing to the DNS server in the VNET. To join the Domain, we have to use the Domain Controller as the DNS Server because the Domain Controller knows what jessedomain.com is. If we use the DNS Server in the VNET, it will search the internet for a random jessedomain.com for a Domain Controller and its going to fail. Once DC-1 becomes the DNS server, it will tell Client-1 which IP address to use to join it.  
+</p>
