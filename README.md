@@ -270,3 +270,28 @@ Before we change the DNS settings, we are going to try to join our Domain to see
 <p>
   <img src="https://i.imgur.com/2fSynzC.png" height="80%" width="80%" alt="xxx"/>
 </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  Now we are going to create a bunch of non-administrative users so that we can use one to login to Client-1. Go back into DC-1 as John Doe and open PowerShell ISE as an administrator. Create a new file and paste the contents of a script, run the script and observe the accounts being created. When finished open Active Directory Users and Computers and observe the accounts in the appropriate Oranizational Unit. 
+</p>
+<p>
+  <img src="https://i.imgur.com/fGDH172.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  Now we are going to pick one random non-administrative user we just created and login to Client-1. If we open C:\Users, we can see all the users that logged into Client-1. 
+</p>
+<p>
+  <img src="https://i.imgur.com/NvMtQuG.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/eoGlIe4.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
