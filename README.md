@@ -224,3 +224,19 @@ Before we change the DNS settings, we are going to try to join our Domain to see
 <p>
   <img src="https://i.imgur.com/iBF0QeJ.png" height="80%" width="80%" alt="xxx"/>
 </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  Now we are going to log back into Client-1 and try to join it to the Domain again. First, we open command prompt, when we type "whoami" and "hostname", we can see we are logged in as "labuser" on Client-1 computer. We have a successful ping with 10.0.0.4 (our DC-1 Domain Controller) and when we type "ipconfig /all" we can see our DNS Server is the private IP address of the Domain Controller. Now we are going to join Client-1 to the Domain and this time we get the login prompt and we are going to enter credentials for John Doe which is the admin for the Domain jessedomain.com. 
+</p>
+<p>
+  <img src="https://i.imgur.com/oT3b3el.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/cu1e4pj.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
+
