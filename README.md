@@ -219,7 +219,7 @@ Before we change the DNS settings, we are going to try to join our Domain to see
 <br/>
 
 <p>
-  From the Azure Portal, set Client-1's DNS settings to the DC-1's private IP address. 
+  From the Azure Portal, set Client-1's DNS settings to the DC-1's private IP address. Once it finishes updating, we are going to restart Client-1 from the portal and it will flush the DNS cache. 
 </p>
 <p>
   <img src="https://i.imgur.com/iBF0QeJ.png" height="80%" width="80%" alt="xxx"/>
