@@ -232,11 +232,41 @@ Before we change the DNS settings, we are going to try to join our Domain to see
   Now we are going to log back into Client-1 and try to join it to the Domain again. First, we open command prompt, when we type "whoami" and "hostname", we can see we are logged in as "labuser" on Client-1 computer. We have a successful ping with 10.0.0.4 (our DC-1 Domain Controller) and when we type "ipconfig /all" we can see our DNS Server is the private IP address of the Domain Controller. Now we are going to join Client-1 to the Domain and this time we get the login prompt and we are going to enter credentials for John Doe which is the admin for the Domain jessedomain.com. 
 </p>
 <p>
-  <img src="https://i.imgur.com/oT3b3el.png" height="80%" width="80%" alt="xxx"/>
+  <img src="https://imgur.com/XdUQKDS.png" height="80%" width="80%" alt="xxx"/>
   <br/>
   <img src="https://i.imgur.com/cu1e4pj.png" height="80%" width="80%" alt="xxx"/>
+  <br/>
+  <img src="https://i.imgur.com/QFb5r3x.png" height="80%" width="80%" alt="xxx"/>
 </p>
 <br/>
 <br/>
 <br/>
 
+<p>
+  Now that Client-1 has joined the Domain we will be able to login to Client-1 with our Domain admin account. Even though John Doe account has never exsisted on Client-1, because Client-1 is now part of the Domain, essentially John Doe can login to that computer or any other computer that is part of the domain. Right now only Domain Admins are allowed to remotely login to Client-1, so now we are going to set it up so that all Domain users can also login to Client-1. So we are going back into SYSTEM SETTINGS, REMOTE DESKTOP, Select users that can remotely access this PC, and we can see list is empty and only Administrators can remote login. 
+</p>
+<p>
+  <img src="https://i.imgur.com/XSQPH1t.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  We are going to add Users/Groups, type Domain and check name to list all the Domain Groups, and we are going to add the built-in Domain Users Group. This group automatically adds all the domain users in this security group. 
+</p>
+<p>
+  <img src="https://i.imgur.com/nJaSHPN.png" height="80%" width="80%" alt="xxx"/>
+    <br/>
+    <img src="https://i.imgur.com/O5CNpac.png" height="80%" width="80%" alt="xxx"/>
+</p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  Now we are going to go back to DC-1 remote desktop and go to Active Directory Users and Computers. Here if we go into Users and open Domain Users, we can see all the users that are members of the Domain Users Security Group which is the group we added to allow remote desktop into Client-1. 
+</p>
+<p>
+  <img src="
+</p>
