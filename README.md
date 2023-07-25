@@ -214,3 +214,13 @@ Before we change the DNS settings, we are going to try to join our Domain to see
 <p>
   <img src="https://i.imgur.com/An2k3pe.png" height="80%" width="80%" alt="xxx"/>
 </p>
+<br/>
+<br/>
+<br/>
+
+<p>
+  From the Azure Portal, set Client-1's DNS settings to the DC-1's private IP address. 
+</p>
+<p>
+  <img src="https://i.imgur.com/iBF0QeJ.png" height="80%" width="80%" alt="xxx"/>
+</p>
