@@ -185,7 +185,7 @@ Normally when you create VMs in a Virtual Network all the IP addressing is setup
 <br/>
 
 <p>
-  Next, we are going to log off and log back in as the administrator John Doe. We can open command prompt and type “whoami” to see we are logged in as “a-john.doe” and a member of “jessedomain”. 
+  Next, we are going to log off and log back in as the administrator John Doe. We can open command prompt and type “whoami” to see we are logged in as “a-john.doe”, a member of “jessedomain”. 
 </p>
 <p>
   <img src="https://i.imgur.com/XdZvY0B.png" height="80%" width="80%" alt="xx"/>
